@@ -1,0 +1,12 @@
+{
+  "appId": "com.shadowfist.game",
+  "appName": "Shadow Fist",
+  "webDir": "www",
+  "backgroundColor": "#050308",
+  "android": { "backgroundColor": "#050308", "allowMixedContent": false },
+  "ios": { "backgroundColor": "#050308", "contentInset": "never", "scrollEnabled": false },
+  "plugins": {
+    "SplashScreen": { "launchShowDuration": 1200, "backgroundColor": "#050308", "showSpinner": false, "androidScaleType": "CENTER_CROP" },
+    "StatusBar": { "overlaysWebView": true, "style": "DARK", "backgroundColor": "#00000000" }
+  }
+}

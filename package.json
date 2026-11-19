@@ -1,0 +1,24 @@
+{
+  "name": "shadow-fist",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SHADOW FIST — Kara Ejderha'nın Gölgesi (2D kung fu aksiyon platform oyunu)",
+  "scripts": {
+    "sync": "cap sync",
+    "android": "cap open android",
+    "ios": "cap open ios",
+    "assets": "capacitor-assets generate --iconBackgroundColor '#050308' --splashBackgroundColor '#050308'"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/core": "^8.6.2",
+    "@capacitor/ios": "^8.6.2",
+    "@capacitor/screen-orientation": "^8.0.2",
+    "@capacitor/splash-screen": "^8.0.2",
+    "@capacitor/status-bar": "^8.0.4"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "^4.0.0",
+    "@capacitor/cli": "^8.6.2"
+  }
+}
